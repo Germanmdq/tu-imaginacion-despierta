@@ -1,0 +1,14 @@
+import os
+from dotenv import load_dotenv
+from supabase import create_client, Client
+
+load_dotenv()
+
+url: str = os.environ.get("SUPABASE_URL")
+key: str = os.environ.get("SUPABASE_SERVICE_KEY")
+
+if not url or not key:
+    raise ValueError("Faltan las credenciales de Supabase en el archivo .env")
+
+# Usamos el SERVICE_KEY para tener permisos de administrador en el backend
+supabase: Client = create_client(url, key)

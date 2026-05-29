@@ -1,0 +1,207 @@
+/* ai-room.css – Premium dashboard styling for Ánima IA */
+
+:root {
+  /* Color palette */
+  --ai-primary: #2a3b5d; /* deep indigo */
+  --ai-secondary: #3c4c6d; /* muted blue */
+  --ai-accent: #00a884; /* WhatsApp green, for actions */
+  --ai-bg: rgba(255, 255, 255, 0.12); /* glass effect */
+  --ai-text-primary: #e9edef;
+  --ai-text-secondary: #aebac1;
+  --ai-chip-bg: #394a70;
+  --ai-chip-text: #f1f5f9;
+}
+
+/* Glassmorphic container */
+.ai-room {
+  backdrop-filter: blur(12px);
+  background: var(--ai-bg);
+  border-radius: 20px;
+  padding: 24px;
+  margin: 0 auto;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.ai-room-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.ai-room-head .chip {
+  background: var(--ai-chip-bg);
+  color: var(--ai-chip-text);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.ai-room-head h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: var(--ai-text-primary);
+  font-weight: 600;
+}
+
+.ai-room-head p {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+  color: var(--ai-text-secondary);
+  line-height: 1.4;
+}
+
+.ai-mic {
+  background: var(--ai-accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.ai-mic:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0, 168, 132, 0.4);
+}
+
+.ai-chat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+  overflow: hidden;
+}
+
+.ai-chat-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: var(--ai-text-secondary);
+}
+
+.ai-chat-status .brain-badge {
+  font-size: 1.2rem;
+}
+
+.ai-chat-log {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-right: 8px;
+}
+
+.chat-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.chat-row.anima .brain-badge {
+  font-size: 1.4rem;
+}
+
+.chat-bubble {
+  background: var(--wa-bubble-received);
+  color: var(--wa-text-primary);
+  padding: 10px 14px;
+  border-radius: 12px;
+  max-width: 70%;
+  line-height: 1.45;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.chat-row.user .chat-bubble {
+  background: var(--wa-bubble-sent);
+  margin-left: auto;
+}
+
+.ai-input-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.ai-input-row textarea {
+  flex: 1;
+  resize: none;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  background: var(--wa-textarea-bg);
+  color: var(--wa-text-input);
+  outline: none;
+  max-height: 120px;
+}
+
+.ai-send {
+  background: var(--ai-accent);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.ai-send:hover {
+  background: var(--ai-accent-hover, #008069);
+  transform: scale(1.07);
+}
+
+.ai-capabilities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.ai-capability {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s ease;
+  color: #fff;
+}
+
+.ai-capability.lime { background: #32cd32; }
+.ai-capability.violet { background: #8a2be2; }
+.ai-capability.blush { background: #ff6f61; }
+.ai-capability.turquoise { background: #40e0d0; }
+
+.ai-capability:hover {
+  opacity: 0.85;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .ai-room { padding: 16px; }
+  .ai-room-head { flex-direction: column; align-items: flex-start; }
+  .ai-mic { width: 56px; height: 56px; font-size: 1.2rem; }
+  .chat-bubble { max-width: 85%; font-size: 0.9rem; }
+}
