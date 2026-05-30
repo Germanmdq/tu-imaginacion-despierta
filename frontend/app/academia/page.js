@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import Navbar from "@/components/Navbar/Navbar";
+
 export default function Academia() {
   const [messages, setMessages] = useState([
     { role: 'assistant', content: 'Hola, soy tu asistente para controlar la imaginación.' }
@@ -9,7 +10,7 @@ export default function Academia() {
   const [tutor, setTutor] = useState("neville");
   const [isRecording, setIsRecording] = useState(false);
   const recognitionRef = useRef(null);
-  const finalTranscriptRef = useRef(""); // To keep track of transcript without stale state
+  const finalTranscriptRef = useRef(""); 
 
   const [isLoading, setIsLoading] = useState(false);
 
@@ -39,7 +40,6 @@ export default function Academia() {
 
       recognitionRef.current.onend = () => {
         setIsRecording(false);
-        // Auto-send if we collected text
         if (finalTranscriptRef.current.trim() !== "") {
            handleAutoSend(finalTranscriptRef.current.trim());
            finalTranscriptRef.current = "";
@@ -102,23 +102,26 @@ export default function Academia() {
       const data = await res.json();
       setMessages(prev => [...prev, { role: 'assistant', content: data.answer || 'Lo siento, hubo un error procesando tu mensaje.' }]);
     } catch (error) {
-      setMessages(prev => [...prev, { role: 'assistant', content: 'No me pude conectar con el servidor. Revisá que el backend esté corriendo en el puerto 8000.' }]);
+      setMessages(prev => [...prev, { role: 'assistant', content: 'No me pude conectar con el servidor.' }]);
     } finally {
       setIsLoading(false);
     }
   };
 
   return (
-    <div className="bg-[#f3f4f6] h-screen w-screen text-gray-900 flex flex-col overflow-hidden">
+    <div className="bg-[#F5F5F7] h-screen w-screen text-[#1D1D1F] flex flex-col overflow-hidden font-sans relative">
+      
       {/* 1. Navbar */}
-      <Navbar />
+      <div className="relative z-20">
+        <Navbar />
+      </div>
 
-      <div className="flex-grow flex pt-24 px-4 md:px-10 pb-6 gap-8 h-full max-h-screen">
+      <div className="flex-grow flex pt-24 px-4 md:px-10 pb-6 gap-8 h-full max-h-screen relative z-10">
         
         {/* 2. Sidebar */}
-        <aside className="hidden md:flex flex-col bg-white w-[260px] rounded-[2.5rem] p-6 border border-gray-200 shadow-xl flex-shrink-0">
+        <aside className="hidden md:flex flex-col apple-card w-[260px] p-6 flex-shrink-0">
           <div className="flex items-center gap-4 mb-10 pl-2">
-            <LogoTID className="h-10 text-gray-900" />
+            <LogoTID className="h-8 text-[#1d1d1f]" />
           </div>
 
           <nav className="flex flex-col gap-2 flex-grow">
@@ -130,27 +133,25 @@ export default function Academia() {
             <SidebarItem icon={UserIcon} label="Mi cuenta" />
           </nav>
 
-          <div className="mt-auto pt-6 border-t border-gray-200">
+          <div className="mt-auto pt-6 border-t border-[#d2d2d7]">
             <SidebarItem icon={SettingsIcon} label="Ajustes" />
           </div>
         </aside>
 
         {/* 3. Main Chat Interface */}
-        <main className="flex-grow flex flex-col h-full bg-white rounded-[3rem] border border-gray-200 p-6 md:p-10 relative overflow-hidden shadow-xl">
-          {/* Background Glow */}
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[40rem] h-[20rem] bg-blue-200/40 rounded-[100%] blur-[80px] pointer-events-none"></div>
+        <main className="flex-grow flex flex-col h-full apple-card p-6 md:p-10 relative overflow-hidden">
 
           {/* Header */}
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 relative z-10 flex-shrink-0">
             <div>
-              <h1 className="text-4xl font-bold mb-2 text-gray-900 tracking-tight">Tu espacio</h1>
-              <p className="text-gray-500">Hablá. El asistente ordena.</p>
+              <h1 className="text-4xl font-bold mb-2 tracking-tight">Tu espacio</h1>
+              <p className="text-[#86868b]">Hablá. El asistente ordena.</p>
             </div>
             
             <select 
               value={tutor}
               onChange={(e) => setTutor(e.target.value)}
-              className="mt-4 md:mt-0 bg-gray-100 border border-gray-200 text-gray-700 rounded-2xl px-6 py-3 outline-none focus:border-blue-500 transition-colors cursor-pointer appearance-none"
+              className="mt-4 md:mt-0 apple-input px-6 py-3 cursor-pointer appearance-none font-medium"
             >
               <option value="neville">Tutor: Neville Goddard</option>
               <option value="murphy">Tutor: Joseph Murphy</option>
@@ -159,34 +160,53 @@ export default function Academia() {
             </select>
           </div>
 
-          {/* Central Mic */}
-          <div className="flex justify-center mb-6 relative z-10 flex-shrink-0">
+          {/* Central Mic & Visualizer (LiveKit Style UI) */}
+          <div className="flex flex-col items-center justify-center mb-8 relative z-10 flex-shrink-0 min-h-[140px]">
+            {isRecording ? (
+              <div className="flex items-center justify-center gap-1.5 h-16 mb-4">
+                {[...Array(7)].map((_, i) => (
+                  <div 
+                    key={i}
+                    className="w-2 rounded-full bg-[#1d1d1f] animate-visualizer origin-bottom"
+                    style={{ 
+                      height: '100%',
+                      animationDelay: `${i * 0.15}s`,
+                      animationDuration: `${0.6 + (i % 3) * 0.2}s`
+                    }}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="h-16 mb-4 flex items-center justify-center">
+                <p className="text-[#86868b] text-sm font-medium">Presioná para hablar</p>
+              </div>
+            )}
+            
             <button 
               onClick={toggleRecording}
-              className={`w-32 h-32 rounded-full flex flex-col items-center justify-center gap-3 relative transition-all duration-300 ${
-                isRecording ? 'bg-red-500 shadow-[0_0_40px_rgba(239,68,68,0.4)] scale-105' : 'bg-white border-2 border-gray-100 hover:bg-gray-50 shadow-[0_0_40px_rgba(37,99,235,0.15)] hover:shadow-[0_0_50px_rgba(37,99,235,0.25)]'
+              className={`w-20 h-20 rounded-full flex items-center justify-center transition-all duration-500 ${
+                isRecording 
+                ? 'bg-red-500 shadow-[0_0_20px_rgba(239,68,68,0.4)] scale-110' 
+                : 'bg-[#1d1d1f] hover:bg-black shadow-[0_8px_30px_rgba(0,0,0,0.15)] hover:shadow-[0_12px_40px_rgba(0,0,0,0.2)] hover:-translate-y-1'
               }`}
             >
-              <MicIcon className={`w-8 h-8 ${isRecording ? 'text-white' : 'text-blue-600'}`} />
-              <span className={`text-sm font-bold tracking-widest ${isRecording ? 'text-white' : 'text-blue-600'}`}>
-                {isRecording ? "ESCUCHANDO" : "HABLAR"}
-              </span>
+              <MicIcon className={`w-8 h-8 ${isRecording ? 'text-white' : 'text-white'}`} />
             </button>
           </div>
 
           {/* Chat Messages */}
-          <div className="flex-grow overflow-y-auto flex flex-col gap-4 mb-6 pr-2 relative z-10 scrollbar-hide">
+          <div className="flex-grow overflow-y-auto flex flex-col gap-6 mb-6 pr-2 relative z-10 scrollbar-hide">
             {messages.map((msg, i) => (
               <div key={i} className={`flex ${msg.role === 'assistant' ? 'justify-start' : 'justify-end'}`}>
                 {msg.role === 'assistant' && (
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center mr-3 text-xl flex-shrink-0 mt-1">
+                  <div className="w-10 h-10 bg-[#f2f2f7] rounded-full flex items-center justify-center mr-4 text-xl flex-shrink-0 mt-1 shadow-sm">
                     🧠
                   </div>
                 )}
-                <div className={`max-w-[80%] p-4 rounded-3xl ${
+                <div className={`max-w-[80%] p-5 rounded-3xl font-medium leading-relaxed ${
                   msg.role === 'assistant' 
-                    ? 'bg-gray-100 border border-gray-200 rounded-tl-sm text-gray-800' 
-                    : 'bg-blue-600 text-white rounded-tr-sm'
+                    ? 'bg-[#f2f2f7] text-[#1d1d1f] rounded-tl-sm' 
+                    : 'bg-[#007aff] text-white rounded-tr-sm shadow-[0_4px_14px_rgba(0,122,255,0.3)]'
                 }`}>
                   {msg.content}
                 </div>
@@ -198,8 +218,8 @@ export default function Academia() {
           <div className="relative z-10 flex gap-3 flex-shrink-0">
             <button 
               onClick={toggleRecording}
-              className={`md:hidden px-4 rounded-2xl border flex items-center justify-center transition-colors ${
-                isRecording ? 'bg-red-500 border-red-500 text-white' : 'bg-gray-100 border-gray-200 hover:bg-gray-200 text-gray-700'
+              className={`md:hidden px-4 rounded-2xl flex items-center justify-center transition-colors ${
+                isRecording ? 'bg-red-50 text-red-500' : 'bg-white border border-[#d2d2d7] text-[#86868b]'
               }`}
             >
                <MicIcon className="w-6 h-6" />
@@ -215,12 +235,16 @@ export default function Academia() {
               }}
               placeholder={isLoading ? "Ánima está pensando..." : "Escribí o hablá..."}
               disabled={isLoading}
-              className="flex-grow bg-gray-100 border border-gray-200 rounded-2xl px-6 py-4 text-gray-900 outline-none focus:border-blue-500 resize-none h-[60px]"
+              className="flex-grow apple-input px-6 py-4 resize-none h-[60px]"
             />
             <button 
               onClick={handleSend}
               disabled={isLoading}
-              className={`px-8 rounded-2xl font-bold flex items-center justify-center transition-colors ${isLoading ? 'bg-gray-300 text-gray-500' : 'bg-gray-900 text-white hover:bg-black'}`}
+              className={`px-8 rounded-2xl font-bold tracking-wide flex items-center justify-center transition-all duration-300 ${
+                isLoading 
+                ? 'bg-[#e5e5ea] text-[#86868b] cursor-not-allowed' 
+                : 'bg-[#1d1d1f] text-white hover:bg-black shadow-[0_4px_14px_rgba(0,0,0,0.1)] hover:shadow-[0_6px_20px_rgba(0,0,0,0.15)] hover:-translate-y-0.5'
+              }`}
             >
               {isLoading ? "ENVIANDO..." : "ENVIAR"}
             </button>
@@ -229,7 +253,7 @@ export default function Academia() {
       </div>
 
       {/* Mobile Bottom Nav */}
-      <div className="md:hidden fixed bottom-0 left-0 w-full bg-white border-t border-gray-200 flex justify-around p-4 z-50">
+      <div className="md:hidden fixed bottom-0 left-0 w-full bg-white flex justify-around p-4 z-50 rounded-t-3xl border-t border-[#d2d2d7] shadow-[0_-10px_20px_rgba(0,0,0,0.03)]">
         <BottomNavItem icon={HomeIcon} label="Espacio" active />
         <BottomNavItem icon={StarIcon} label="Afirmar" />
         <BottomNavItem icon={BrainIcon} label="Coach" />
@@ -252,7 +276,7 @@ export default function Academia() {
 // Subcomponents
 function SidebarItem({ icon: Icon, label, active }) {
   return (
-    <a href="#" className={`flex items-center gap-4 px-4 py-3 rounded-xl transition-colors ${active ? 'bg-blue-50 text-blue-600 font-bold' : 'text-gray-500 hover:bg-gray-50 hover:text-gray-900'}`}>
+    <a href="#" className={`flex items-center gap-4 px-4 py-3 rounded-xl transition-all duration-300 ${active ? 'bg-[#f2f2f7] text-[#1d1d1f] font-bold' : 'text-[#86868b] hover:bg-[#f2f2f7]/50 hover:text-[#1d1d1f]'}`}>
       <Icon className="w-5 h-5" />
       <span>{label}</span>
     </a>
@@ -261,7 +285,7 @@ function SidebarItem({ icon: Icon, label, active }) {
 
 function BottomNavItem({ icon: Icon, label, active }) {
   return (
-    <a href="#" className={`flex flex-col items-center gap-1 ${active ? 'text-blue-400' : 'text-gray-400'}`}>
+    <a href="#" className={`flex flex-col items-center gap-1 transition-colors ${active ? 'text-[#1d1d1f]' : 'text-[#86868b]'}`}>
       <Icon className="w-6 h-6" />
       <span className="text-[0.65rem] font-bold tracking-wider">{label}</span>
     </a>
@@ -271,10 +295,10 @@ function BottomNavItem({ icon: Icon, label, active }) {
 // SVG Icons
 const LogoTID = ({ className }) => (
   <svg viewBox="0 0 145 50" className={className} fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <rect x="0" y="0" width="145" height="12" />
-    <rect x="20" y="12" width="12" height="38" />
-    <rect x="65" y="12" width="12" height="38" />
-    <path d="M 95 12 V 50 H 110 A 19 19 0 0 0 110 12 Z M 107 24 H 110 A 7 7 0 0 1 110 38 H 107 Z" fillRule="evenodd" />
+    <rect x="0" y="0" width="145" height="10" rx="2" />
+    <rect x="25" y="10" width="12" height="40" rx="2" />
+    <rect x="70" y="10" width="12" height="40" rx="2" />
+    <path d="M 105 10 V 50 H 120 C 140 50, 140 10, 120 10 Z M 117 20 C 127 20, 127 40, 117 40 H 117 V 20 Z" fillRule="evenodd" />
   </svg>
 );
 

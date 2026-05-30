@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.5",
+    "@livekit/components-react": "^2.9.21",
+    "@livekit/components-styles": "^1.2.0",
     "@mediapipe/tasks-vision": "^0.10.9",
     "@react-spring/web": "^9.7.3",
     "@react-three/drei": "^9.93.0",
@@ -26,6 +28,8 @@
     "gsap": "^3.12.5",
     "lamina": "^1.1.23",
     "lil-gui": "^0.20.0",
+    "livekit-client": "^2.19.1",
+    "livekit-server-sdk": "^2.15.4",
     "next": "14.2.35",
     "nice-color-palettes": "^4.0.0",
     "react": "^18",
