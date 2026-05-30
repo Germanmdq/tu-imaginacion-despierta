@@ -1,0 +1,36 @@
+{
+  "titulo": "Justificados Estados",
+  "autor": "neville",
+  "año": "1949",
+  "texto_completo": "Los Estados Justificados es el momento en que el creyente se viste con el cuerpo de Dios y se convierte en un ser perfecto. Es el momento en que el poder de Dios se manifiesta en la realidad.",
+  "etiquetas": [
+    "Justificados Estados",
+    "Poder de Dios",
+    "Creación",
+    "Manifestación"
+  ],
+  "frases_destacadas": [
+    "Los Estados Justificados es el momento en que el creyente se viste con el cuerpo de Dios",
+    "El poder de Dios se manifiesta en la realidad"
+  ],
+  "explicaciones_metafisicas": [
+    "El creyente se convierte en un ser perfecto",
+    "El poder de Dios se manifiesta en la realidad"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "La historia de un hombre que se vistió con el cuerpo de Dios y se convirtió en un ser perfecto."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedo ser un ser perfecto?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

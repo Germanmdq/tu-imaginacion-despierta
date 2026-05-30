@@ -1,0 +1,35 @@
+{
+  "titulo": "Una profecía",
+  "autor": "neville",
+  "año": "1905",
+  "texto_completo": "te encontrarás completamente elevado en un cuerpo flotante, un cuerpo inmortal... y este mar de imperfección y pasarás junto a ti y todos los que estén ante tus ojos serán perfeccionados. Los ciegos verán; los sordos oirán; el cojo saltará. Todo será completamente elevado y perfeccionado, y tú eres el perfecto que pasa por ahí. 'Sed perfectos como vuestro Padre que está en los cielos es perfecto'. Eres el autor de todo.",
+  "etiquetas": [
+    "metafísica",
+    "espiritualidad",
+    "revelación"
+  ],
+  "frases_destacadas": [
+    "La perfección es posible",
+    "Eres el autor de tu realidad"
+  ],
+  "explicaciones_metafisicas": [
+    "La realidad se crea desde dentro",
+    "La fe es la clave para despertar"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Una señora que estaba en la audiencia esa noche escribió diciendo que estaba durmiendo en la casa de una amiga, cuando vio a un bebé desnudo acostado sobre una manta. Al levantarlo oye sonar el timbre. Al abrir la puerta con el niño en brazos, ve a su hija, que le dice: 'Madre, ponle algo de ropa a tu bebé porque he traído a una amiga'. Al entrar a la casa, el amigo le da una palmada en la espalda al bebé y le dice: 'Qué niño tan hermoso'. Regresa a la habitación y mientras cubre al bebé con una manta (el pañal) se despierta. Este es un maravilloso presagio que pronostica el evento real registrado en las Escrituras. Entonces ella sabrá la verdad sobre el nacimiento de Dios."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿La perfección es posible?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

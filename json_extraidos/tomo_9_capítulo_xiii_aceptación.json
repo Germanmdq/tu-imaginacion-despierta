@@ -1,0 +1,28 @@
+{
+  "titulo": "Capítulo XIII Aceptación",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "Las percepciones del hombre no están limitadas por los órganos de la percepción: percibe más de lo que los sentidos (por muy agudos que sean) pueden descubrir.",
+  "etiquetas": [
+    "aceptación",
+    "percepciones",
+    "sentidos"
+  ],
+  "frases_destacadas": [
+    "Las percepciones del hombre no están limitadas por los órganos de la percepción"
+  ],
+  "explicaciones_metafisicas": [
+    "El mundo objetivo es fruto de épocas de esplendor olvidadas, resultado de estados de conciencia anteriores y generalmente olvidados"
+  ],
+  "testimonios": [],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes percibir más de lo que tus sentidos pueden descubrir?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "titulo": "El Juego de la Vida",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "Con esta confesión fuera de mi mente, ahora les enseñaré a jugar el juego de la vida. La vida es un juego y, como todos los juegos, tiene sus objetivos y sus reglas. En los pequeños juegos que los hombres inventan, como el críquet, el tenis, el béisbol, el fútbol, etc., las reglas pueden cambiar de vez en cuando. Una vez acordados los cambios, el hombre debe aprender las nuevas reglas y jugar dentro del marco de las aceptadas.",
+  "etiquetas": [
+    "Juego de la Vida",
+    "Objetivos",
+    "Reglas"
+  ],
+  "frases_destacadas": [
+    "La vida es un juego y, como todos los juegos, tiene sus objetivos y sus reglas.",
+    "La ley de la Palabra no puede ser quebrantada."
+  ],
+  "explicaciones_metafisicas": [
+    "La vida es un juego y, como todos los juegos, tiene sus objetivos y sus reglas.",
+    "La ley de la Palabra no puede ser quebrantada."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Una mujer que se negó a aceptar la evidencia de sus sentidos, que se negó a ser robada, a pesar de una aparente pérdida. La esposa le había regalado a su esposo un reloj de pulsera muy valioso. El regalo duplicó su valor por el sentimiento que él le atribuía. Tenían un pequeño ritual con el reloj. Cada noche, al quitárselo, se lo daba a ella y ella lo guardaba en una caja especial en el escritorio. Cada mañana, ella tomaba el reloj y se lo daba para que se lo pusiera."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿La vida es un juego y, como todos los juegos, tiene sus objetivos y sus reglas?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

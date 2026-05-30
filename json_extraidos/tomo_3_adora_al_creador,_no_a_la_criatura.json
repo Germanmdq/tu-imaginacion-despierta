@@ -1,0 +1,35 @@
+{
+  "titulo": "Adora al Creador, no a la criatura",
+  "autor": "neville",
+  "año": "1919",
+  "texto_completo": "Aquí creemos firmemente que imaginar es Dios, que el Poder Supremo del Universo es uno con la imaginación humana. Entonces, cuando lees la Biblia – un libro fabuloso e inspirado – y llegas a la palabra “Dios”, también puedes usar la palabra “imaginar” y obtendrás una comprensión más clara de ella. Romanos 4: 20: “Ninguna desconfianza hizo dudar a Abraham acerca de la promesa de Dios, sino que se fortaleció en su fe dando gloria a Dios, plenamente convencido de que Dios era poderoso para hacer lo que había prometido”. Cuando lo leas podrías pensar en algún ser externo a tu propia Imaginación. ¿Podrías soñar ahora con ser el hombre o la mujer que quieres ser? Ese sueño es una promesa.",
+  "etiquetas": [
+    "Dios",
+    "imaginación",
+    "creación"
+  ],
+  "frases_destacadas": [
+    "La imaginación es Dios.",
+    "Dios habla al hombre a través del lenguaje de los sueños."
+  ],
+  "explicaciones_metafisicas": [
+    "La imaginación es la fuente de la creación.",
+    "La realidad es una proyección de la imaginación."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Mi padre vio todo como hecho. Discutió un programa con un hombre y luego el hombre se le acercó y le propuso el trato que mi padre ya había cerrado en su Imaginación."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes imaginar algo y hacer que suceda?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "titulo": "22. Este mundo es un sueño",
+  "autor": "neville",
+  "año": "1965",
+  "texto_completo": "Este mundo es un sueño y Dios es la única realidad. La imaginación es la fuente de todos los sueños y fenómenos. La realidad es la imaginación. La ley de la imaginación es la ley de la creación y la realidad. La imaginación es la clave para crear la realidad y la realidad es la clave para entender la imaginación. La ley de la imaginación es la ley de la vida y la muerte. La imaginación es la fuente de la vida y la muerte. La ley de la imaginación es la ley del universo y la realidad. La imaginación es la clave para entender el universo y la realidad.",
+  "etiquetas": [
+    "Este mundo es un sueño",
+    "Dios",
+    "La realidad",
+    "La creación"
+  ],
+  "frases_destacadas": [
+    "Este mundo es un sueño",
+    "Dios es la única realidad"
+  ],
+  "explicaciones_metafisicas": [
+    "La imaginación es la fuente de todos los sueños y fenómenos",
+    "La realidad es la imaginación"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Tom C. tuvo una experiencia en la que se despertó en un sueño y pudo sentir la almohada debajo de su cuello. Luego, se despertó en su cama y estaba cataléptico. Después de mucha lucha, pudo abrir los ojos y ver los objetos familiares en la pared y la cómoda."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Este mundo es un sueño?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

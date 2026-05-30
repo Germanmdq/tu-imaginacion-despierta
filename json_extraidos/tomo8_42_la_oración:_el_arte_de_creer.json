@@ -1,0 +1,59 @@
+{
+  "titulo": "La Oración: El Arte de Creer",
+  "autor": "neville",
+  "año": "1945",
+  "texto_completo": "5. La oración: el arte de creer\nLibro / lección. Año: 1945. Fuente: El Club de la Imaginación.\n Capítulo 1\n Ley de Reversibilidad\n “Ora por mi alma, más cosas son forjadas por la oración de lo que este mundo sueña.\"\n -Tennyson-\n La ORACIÓN es un arte y requiere práctica. El primer requisito es una imaginación controlada. Procesiones y vanas repeticiones son ajenos a la oración. Su ejercicio requiere tranquilidad y paz mental, \"No uses vanas repeticiones\", porque la oración se hace en secreto y \"tu Padre que ve en secreto te recompensará abiertamente\". (N.T.: Mateo 6:6) Las ceremonias que se usan habitualmente en la oración son meras supersticiones y se han inventado para dar a la oración un aire de solemnidad. Quienes practican el arte de la oración a menudo ignoran las leyes que la controlan. Atribuyen los resultados obtenidos a las ceremonias y confunden la letra con el espíritu. La esencia de la oración es la fe; pero la fe debe estar impregnada de comprensión para recibir esa cualidad activa que no posee cuando está sola. \"Por lo tanto, adquiere sabiduría; y con todo lo que obtengas, adquiere comprensión.\"",
+  "etiquetas": [
+    "oración",
+    "fe",
+    "imaginación controlada",
+    "comprensión",
+    "secreto",
+    "espíritu"
+  ],
+  "frases_destacadas": [
+    "La ORACIÓN es un arte y requiere práctica.",
+    "La esencia de la oración es la fe; pero la fe debe estar impregnada de comprensión.",
+    "Procesiones y vanas repeticiones son ajenos a la oración."
+  ],
+  "explicaciones_metafisicas": [
+    "La oración es un arte que se basa en una imaginación controlada y en un estado de paz mental, no en ritos externos o repeticiones vacías.",
+    "Las ceremonias religiosas en la oración son meras supersticiones que confunden la forma con el espíritu de la práctica.",
+    "La fe es la esencia de la oración, pero para ser activa y efectiva, debe estar acompañada de comprensión y sabiduría."
+  ],
+  "testimonios": [],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "La oración efectiva requiere de ceremonias y repeticiones vanas.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Falso"
+    },
+    {
+      "pregunta": "La esencia de la oración es la fe, y esta fe no necesita ser impregnada de comprensión.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Falso"
+    },
+    {
+      "pregunta": "El primer requisito para la oración es una imaginación controlada.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    },
+    {
+      "pregunta": "Los resultados de la oración se atribuyen a las ceremonias por quienes ignoran las leyes que la controlan.",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

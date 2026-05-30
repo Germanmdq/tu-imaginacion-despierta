@@ -1,0 +1,35 @@
+{
+  "titulo": "El rollo del libro",
+  "autor": "neville",
+  "año": "1930",
+  "texto_completo": "David, hablándonos en el Salmo 40, dice: “He aquí, vengo a hacer tu voluntad, oh Señor, porque en el rollo del libro está escrito de mí”. Y en el capítulo 5 del Libro de Juan estas palabras se encuentran en labios de uno llamado Jesucristo: “Escudriñáis las Escrituras, porque pensáis que en ellas tenéis vida eterna, y ellas son las que dan testimonio de mí”. Al afirmar que todo el libro trata sobre él, comienza con Moisés, la ley, los profetas y los salmos, e interpreta las Escrituras como cosas que le conciernen. Encontrarás en este método de interpretación la clave que desbloqueará las revelaciones más íntimas.",
+  "etiquetas": [
+    "El rollo del libro",
+    "Neville Goddard",
+    "1930"
+  ],
+  "frases_destacadas": [
+    "El rollo del libro es la historia de la salvación",
+    "Tú eres el centro de la historia"
+  ],
+  "explicaciones_metafisicas": [
+    "La Biblia es historia divina, no secular",
+    "Los personajes de la Biblia son interpretados por Dios"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Un hombre que sufrió una fractura en el tobillo se curó rápidamente después de revisar el incidente y omitir la escena donde se lastimó."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes pecar contra el Espíritu Santo?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Falso"
+    }
+  ]
+}

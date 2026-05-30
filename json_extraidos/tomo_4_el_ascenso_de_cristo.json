@@ -1,0 +1,33 @@
+{
+  "titulo": "El ascenso de Cristo",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "Cristo, tu vida, tiene que resucitar dentro de ti; cuando él resucita dentro de ustedes, heredáis a Dios Padre.",
+  "etiquetas": [
+    "cristo",
+    "ascenso",
+    "resurrección"
+  ],
+  "frases_destacadas": [
+    "Cristo, tu vida, tiene que resucitar dentro de ti"
+  ],
+  "explicaciones_metafisicas": [
+    "Cristo, tu vida, tiene que resucitar dentro de ti"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Un hombre que había sido despedido de su trabajo y estaba pasando por una difícil situación económica, comenzó a imaginar y a creer en su capacidad para encontrar un nuevo empleo. A medida que se enfocaba en su imaginación y en su fe, comenzó a sentir una sensación de confianza y seguridad. Finalmente, encontró un nuevo trabajo y pudo mejorar su situación económica."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Cristo, tu vida, tiene que resucitar dentro de ti?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

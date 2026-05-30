@@ -1,0 +1,35 @@
+{
+  "titulo": "ORACIÓN",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "La oración es la experiencia más maravillosa que el hombre puede tener. A diferencia de los murmullos diarios de la gran mayoría de la humanidad en todas las tierras que, con sus vanas repeticiones, esperan llegar a oídos de Dios, la oración es el éxtasis de una boda espiritual que tiene lugar en la profunda y silenciosa quietud de la conciencia. En su verdadero sentido, la oración es la ceremonia matrimonial de Dios.\n\nAsí como una doncella en el día de su boda renuncia al apellido de su familia para asumir el apellido de su esposo, de la misma manera, quien ora debe renunciar a su nombre o naturaleza actual y asumir la naturaleza de aquello por lo que ora.\n\nLos evangelios han instruido claramente al hombre sobre la realización de esta ceremonia de la siguiente manera: «Cuando oréis, entrad en secreto y cerrad la puerta; y vuestro Padre, que ve en lo secreto, os recompensará en público». Entrar en la habitación nupcial es el acto de entrar en ella. Así como solo los novios tienen permitido entrar en una habitación tan sagrada como la suite nupcial la noche de la ceremonia, de igual modo solo quien ora y aquello por lo que ora tienen permitido entrar en la hora santa de la oración.",
+  "etiquetas": [
+    "Oración",
+    "Conciencia",
+    "Dios"
+  ],
+  "frases_destacadas": [
+    "La oración es la experiencia más maravillosa que el hombre puede tener",
+    "La oración es la ceremonia matrimonial de Dios"
+  ],
+  "explicaciones_metafisicas": [
+    "La oración es el éxtasis de una boda espiritual",
+    "La oración es la renuncia a la naturaleza actual"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Una persona que ora con sinceridad y dedicación puede experimentar la presencia de Dios en su vida."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿La oración es la experiencia más maravillosa que el hombre puede tener?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

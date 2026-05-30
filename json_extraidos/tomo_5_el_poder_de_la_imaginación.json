@@ -1,0 +1,36 @@
+{
+  "titulo": "El poder de la imaginación",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El poder de la imaginación es el poder de Dios. Es el poder de crear y manifestar lo que se desea. La imaginación es la fuente de la creación y la manifestación de la realidad.",
+  "etiquetas": [
+    "Poder de la imaginación",
+    "Dios",
+    "Creación",
+    "Manifestación"
+  ],
+  "frases_destacadas": [
+    "El poder de la imaginación es el poder de Dios",
+    "La imaginación es la fuente de la creación"
+  ],
+  "explicaciones_metafisicas": [
+    "La imaginación es la fuente de la creación",
+    "El poder de la imaginación es el poder de Dios"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "La historia de un hombre que creó una revista hablada y la manifestó en la realidad."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedo manifestar lo que deseo?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "titulo": "Él Resucita en Mí",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "Ahora, si no hay preguntas, gracias.",
+  "etiquetas": [
+    "resurrección",
+    "imaginación",
+    "realidad"
+  ],
+  "frases_destacadas": [
+    "El vasto mundo entero es yo mismo expulsado.",
+    "Tú serás el ser llamado Jesús y Jesús es el Señor."
+  ],
+  "explicaciones_metafisicas": [
+    "La verdad revelada es sabiduría tal como se define en las Escrituras.",
+    "La ciencia es conocimiento basado en experimentos."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Neville cuenta la historia de cómo su esposa estuvo en el hospital y cómo él la llamó por teléfono y le dio un pensamiento de meditación para la noche. Luego, él se sentó junto a su radio y puso música encantadora y tomó un tema para meditar. En su meditación, él se sintió como un ser inmortal que descendió a un mundo de muerte y tomó la forma aprisionada llamada hombre."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿El vasto mundo entero es yo mismo expulsado?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

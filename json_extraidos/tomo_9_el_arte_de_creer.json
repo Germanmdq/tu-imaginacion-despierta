@@ -1,0 +1,37 @@
+{
+  "titulo": "El arte de creer",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El arte de creer es el poder de imaginar y crear la realidad. Es el poder de tomar una idea y hacerla realidad. Mi padre, que era un hombre pobre y blanco, nacido en una pequeña isla, creyó que era dueño de un gran edificio en la calle principal. Luego, cuando se le presentó la oportunidad, compró el edificio y se convirtió en un hombre rico y exitoso.",
+  "etiquetas": [
+    "creer",
+    "imaginación",
+    "realidad"
+  ],
+  "frases_destacadas": [
+    "La ocupación es fertilización, y el óvulo no es fertilizado hasta que lo ocupas.",
+    "La ocupación es pensar desde en lugar de pensar en.",
+    "El hombre exterior no puede hacerlo, entonces lo pone en una silla, lo pone en una cama, lo deja donde está, está indefenso."
+  ],
+  "explicaciones_metafisicas": [
+    "La ocupación es fertilización, y el óvulo no es fertilizado hasta que lo ocupas.",
+    "La ocupación es pensar desde en lugar de pensar en.",
+    "El hombre exterior no puede hacerlo, entonces lo pone en una silla, lo pone en una cama, lo deja donde está, está indefenso."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Mi padre, que era un hombre pobre y blanco, nacido en una pequeña isla, creyó que era dueño de un gran edificio en la calle principal. Luego, cuando se le presentó la oportunidad, compró el edificio y se convirtió en un hombre rico y exitoso."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes creer?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "titulo": "Pentecostés",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "Pentecostés es el momento en que el poder de Dios se manifiesta en la realidad. Es el momento en que el creyente se viste con el cuerpo de Dios y se convierte en un ser perfecto.",
+  "etiquetas": [
+    "Pentecostés",
+    "Poder de Dios",
+    "Creación",
+    "Manifestación"
+  ],
+  "frases_destacadas": [
+    "Pentecostés es el momento en que el poder de Dios se manifiesta",
+    "El creyente se viste con el cuerpo de Dios"
+  ],
+  "explicaciones_metafisicas": [
+    "El poder de Dios se manifiesta en la realidad",
+    "El creyente se convierte en un ser perfecto"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "La historia de un hombre que se vistió con el cuerpo de Dios y se convirtió en un ser perfecto."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedo ser un ser perfecto?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

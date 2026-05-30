@@ -1,0 +1,35 @@
+{
+  "titulo": "El Ideal Siempre Espera Encarnarse",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El ideal siempre espera encarnarse, pero a menos que nosotros mismos se lo ofrezcamos al Señor, nuestra conciencia, asumiendo que ya somos aquello que buscamos encarnar, es incapaz de nacer. El Señor necesita su cordero de fe diario para moldear el mundo en armonía con nuestros sueños.",
+  "etiquetas": [
+    "Fe",
+    "Conciencia",
+    "Ideal"
+  ],
+  "frases_destacadas": [
+    "La fe sacrifica el hecho aparente por la verdad invisible.",
+    "La vida en la Tierra es un campo de entrenamiento para la creación de imágenes."
+  ],
+  "explicaciones_metafisicas": [
+    "La fe es la evidencia de lo que no se ve.",
+    "La vida ordena las circunstancias, condiciones y eventos para expresar los significados o actitudes invisibles de los hombres."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Una joven me pidió que conociera a su hermana y a su sobrino de tres años. Era un niño guapo y saludable, de ojos azules claros y una piel excepcionalmente fina e impecable. Luego me contó su historia. Al nacer, el niño era perfecto en todos los sentidos, salvo por una gran y fea marca de nacimiento que le cubría un lado de la cara. Su médico les advirtió que no se podía hacer nada con ese tipo de cicatriz. Las visitas a numerosos especialistas solo confirmaron su afirmación. Al oír el veredicto, la tía se propuso demostrar su fe: que una suposición, aunque desmentida por los sentidos, si persiste, se convierte en realidad."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿La fe sacrifica el hecho aparente por la verdad invisible?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

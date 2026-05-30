@@ -1,0 +1,35 @@
+{
+  "titulo": "Puedes perdonar el pecado",
+  "autor": "neville",
+  "año": "sin año",
+  "texto_completo": "Puedes perdonar el pecado. Eso para la mayoría de la gente será una blasfemia, como escucharás más adelante, citando las Escrituras. Es muy común entre todos nosotros atribuir nuestros males y nuestros problemas a cosas externas, como las condiciones actuales del mundo, a nuestro entorno o simplemente a las cosas.",
+  "etiquetas": [
+    "pecado",
+    "perdón",
+    "salvación"
+  ],
+  "frases_destacadas": [
+    "Pecado significa perder el blanco, perder el camino y perder la meta en la vida.",
+    "Si no tienes una meta, no puedes pecar."
+  ],
+  "explicaciones_metafisicas": [
+    "El pecado no es causado por nada externo, sino por la falta de fe en uno mismo.",
+    "El hombre que te gustaría ser, asume que lo eres; La mujer que te gustaría ser, asume que lo eres."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Mi hermano Víctor quería ser un empresario exitoso y supo permanecer fiel a lo que imaginaba. En 1924, cuando nuestra familia no tenía ni un centavo, Víctor reorganizó el nombre de un edificio (en su mente) para dar a entender que era nuestro propietario. Esto lo hizo durante dos años, cuando – sin más dinero del que empezó a imaginar – un conocido habitual nos compró el edificio sin garantía por 50.000 dólares."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes perdonar el pecado?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "titulo": "La piedra fundamental",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El texto completo y corregido del capítulo sobre la piedra fundamental, donde Neville Goddard explica que la consciencia del ser es la piedra fundamental y que es la causa de todas las manifestaciones.",
+  "etiquetas": [
+    "conciencia",
+    "verdad",
+    "piedra fundamental"
+  ],
+  "frases_destacadas": [
+    "La consciencia del ser es la piedra fundamental y es la causa de todas las manifestaciones.",
+    "El hombre siempre dice Yo Soy."
+  ],
+  "explicaciones_metafisicas": [
+    "La consciencia del ser precede a todas las concepciones de sí misma y permanece sin forma cuando todas sus concepciones dejan de existir.",
+    "La creación comienza y termina en el Creador."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "La historia de la maestra que cambió su actitud hacia una estudiante y la transformó, mostrando que el cambio de actitud puede producir un cambio correspondiente en la otra persona."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿La consciencia del ser es la piedra fundamental?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "titulo": "El Agua y la Sangre",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El texto completo y corregido del capítulo sobre el agua y la sangre, donde Neville Goddard explica que el conocimiento de lo que hay que hacer es el agua de la vida, pero hacerlo es la sangre del salvador.",
+  "etiquetas": [
+    "renacimiento",
+    "imaginación",
+    "conciencia",
+    "verdad"
+  ],
+  "frases_destacadas": [
+    "El conocimiento de lo que hay que hacer es el agua de la vida, pero hacerlo es la sangre del salvador.",
+    "El hombre no encuentra otra luz; busca mil años."
+  ],
+  "explicaciones_metafisicas": [
+    "La consciencia del ser precede a todas las concepciones de sí misma y permanece sin forma cuando todas sus concepciones dejan de existir.",
+    "La creación comienza y termina en el Creador."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "La historia de la maestra que cambió su actitud hacia una estudiante y la transformó, mostrando que el cambio de actitud puede producir un cambio correspondiente en la otra persona."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿El conocimiento de lo que hay que hacer es suficiente para producir el renacimiento?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Falso"
+    }
+  ]
+}

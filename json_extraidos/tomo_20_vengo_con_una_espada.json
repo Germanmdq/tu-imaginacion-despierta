@@ -1,0 +1,35 @@
+{
+  "titulo": "Vengo con una espada",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El texto completo y corregido del capítulo sobre Vengo con una espada, donde Neville Goddard explica que el cambio de actitud y la liberación de las ilusiones pueden producir un cambio correspondiente en la vida.",
+  "etiquetas": [
+    "conciencia",
+    "verdad",
+    "ilusiones"
+  ],
+  "frases_destacadas": [
+    "El cambio de actitud y la liberación de las ilusiones pueden producir un cambio correspondiente en la vida.",
+    "El hombre siempre dice Yo Soy."
+  ],
+  "explicaciones_metafisicas": [
+    "La consciencia del ser precede a todas las concepciones de sí misma y permanece sin forma cuando todas sus concepciones dejan de existir.",
+    "La creación comienza y termina en el Creador."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "La historia de la maestra que cambió su actitud hacia una estudiante y la transformó, mostrando que el cambio de actitud puede producir un cambio correspondiente en la otra persona."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿El cambio de actitud es suficiente para producir un cambio correspondiente en la vida?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

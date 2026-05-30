@@ -1,0 +1,37 @@
+{
+  "titulo": "40. Créelo hasta hacerlo realidad (1966)",
+  "autor": "neville",
+  "año": "1966",
+  "texto_completo": "El tema o título de esta noche es realmente “Believe It In”. Pero el periódico no creyó que yo dijera eso y lo reorganizaron, sin mi permiso, y lo llamaron “Believe In It”. Así que cuando me devolvieron las pruebas, era tan tarde que no tuve tiempo de corregirlas porque ya estaban en imprenta. Bueno, no hicieron más de lo que nuestros eruditos hacen con la Biblia. Tenemos un pasaje en la Biblia que dice “la mujer es salva por el nacimiento de hijos (1 Tim. 2:15 RSV). Te dan una nota al pie de página que dice que el pasaje real dice” la mujer es salva por el nacimiento del niño“. Es toda la diferencia del mundo.",
+  "etiquetas": [
+    "creer",
+    "imaginación",
+    "realidad"
+  ],
+  "frases_destacadas": [
+    "La fe es sólo lealtad a la realidad invisible.",
+    "Eres el poder operante y tienes que tomar la decisión.",
+    "Siempre existe un riesgo en tu elección, porque es posible que no siempre elijas con amor."
+  ],
+  "explicaciones_metafisicas": [
+    "La ocupación es fertilización, y el óvulo no es fertilizado hasta que lo ocupas.",
+    "La ocupación es pensar desde en lugar de pensar en.",
+    "El hombre exterior no puede hacerlo, entonces lo pone en una silla, lo pone en una cama, lo deja donde está, está indefenso."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Mi padre, que era un hombre pobre y blanco, nacido en una pequeña isla, creyó que era dueño de un gran edificio en la calle principal. Luego, cuando se le presentó la oportunidad, compró el edificio y se convirtió en un hombre rico y exitoso."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes creer?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

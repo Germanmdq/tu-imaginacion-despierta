@@ -1,0 +1,35 @@
+{
+  "titulo": "El pecado contra el Espíritu Santo",
+  "autor": "neville",
+  "año": "1963",
+  "texto_completo": "El pecado contra el Espíritu Santo es una declaración que se encuentra en las Escrituras, pero no se refiere a la violación del acto sexual. En realidad, se refiere a la falta de fe y la negación de la verdad.",
+  "etiquetas": [
+    "El pecado contra el Espíritu Santo",
+    "Neville Goddard",
+    "1963"
+  ],
+  "frases_destacadas": [
+    "El Espíritu Santo nos enseñará en esa misma hora lo que debemos decir",
+    "La fe, la esperanza y el amor son los tres aspectos de la verdad"
+  ],
+  "explicaciones_metafisicas": [
+    "La Biblia es un edificio de tres niveles",
+    "La historia de la salvación es una historia divina que se desarrolla en cada uno de nosotros"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Un hombre que fue llevado ante las autoridades y se le preguntó qué decir, respondió automáticamente: 'Fe, Esperanza y Amor, estos tres permanecen, pero el mayor de ellos es el Amor'."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes pecar contra el Espíritu Santo?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Falso"
+    }
+  ]
+}

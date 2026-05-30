@@ -1,0 +1,28 @@
+{
+  "titulo": "Capítulo XVII Todo es posible",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "Es de gran importancia que la veracidad de los principios expuestos en este libro haya sido demostrada una y otra vez por la experiencia personal del autor.",
+  "etiquetas": [
+    "todo es posible",
+    "experiencia personal",
+    "veracidad"
+  ],
+  "frases_destacadas": [
+    "Es de gran importancia que la veracidad de los principios expuestos en este libro"
+  ],
+  "explicaciones_metafisicas": [
+    "La ley de la presunción es el medio por el cual puedes alcanzar la realización de tus deseos"
+  ],
+  "testimonios": [],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes demostrar la veracidad de los principios expuestos en este libro?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

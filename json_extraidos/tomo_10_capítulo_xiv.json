@@ -1,0 +1,28 @@
+{
+  "titulo": "Capítulo XIV",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El principio de \"mínima acción\" rige todo en física, desde la trayectoria de un planeta hasta la de un pulso de luz. La mínima acción consiste en la mínima cantidad de energía multiplicada por la mínima cantidad de tiempo.",
+  "etiquetas": [
+    "mínima acción",
+    "energía",
+    "tiempo"
+  ],
+  "frases_destacadas": [
+    "El principio de \"mínima acción\" rige todo en física"
+  ],
+  "explicaciones_metafisicas": [
+    "La función de una suposición es recuperar esa visión oculta y restaurar la visión completa"
+  ],
+  "testimonios": [],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Puedes aplicar el principio de \"mínima acción\" en tu vida?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "titulo": "El poder de la imaginación",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El poder de la imaginación es el poder de crear la realidad. Cuando ejercitamos nuestra imaginación en nombre de otro, estamos mediando a Dios para ese otro. Si lo hacemos con amor, estamos ayudando a la otra persona a alcanzar su objetivo.",
+  "etiquetas": [
+    "imaginación",
+    "poder",
+    "realidad"
+  ],
+  "frases_destacadas": [
+    "El poder de la imaginación es el poder de crear la realidad"
+  ],
+  "explicaciones_metafisicas": [
+    "El poder de la imaginación es el poder de crear la realidad"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Un hombre que había sido despedido de su trabajo y estaba pasando por una difícil situación económica, comenzó a imaginar y a creer en su capacidad para encontrar un nuevo empleo. A medida que se enfocaba en su imaginación y en su fe, comenzó a sentir una sensación de confianza y seguridad. Finalmente, encontró un nuevo trabajo y pudo mejorar su situación económica."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿El poder de la imaginación es el poder de crear la realidad?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

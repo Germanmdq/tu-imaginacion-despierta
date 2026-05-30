@@ -1,0 +1,33 @@
+{
+  "titulo": "Tú eres el Dios de las Escrituras",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "Tú eres el Dios de las Escrituras. Eres el Dios del universo. Fuiste el Dios que creó los cielos y sostiene los cielos para un propósito divino; y cuando termina la obra y todos despertamos del sueño, nos conocemos, porque tú y yo nos conocíamos como hermanos antes de descender.",
+  "etiquetas": [
+    "Dios",
+    "Escrituras",
+    "Universo"
+  ],
+  "frases_destacadas": [
+    "Tú eres el Dios de las Escrituras"
+  ],
+  "explicaciones_metafisicas": [
+    "La imaginación es el poder creativo que nos permite crear nuestro propio mundo"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Un amigo mío, Verne, me contó una experiencia en la que se sentó en un bar y conoció a un hombre que se parecía a él. El hombre le contó una historia sobre un sueño que había tenido en una cama de hospital en Japón, en el que estaba bailando con una mujer en un salón de baile. Verne se sintió identificado con la historia y se dio cuenta de que era una experiencia similar a la que yo había tenido en la que me senté en una cama y me encontré en un mundo diferente."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Tú eres el Dios de las Escrituras?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

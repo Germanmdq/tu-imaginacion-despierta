@@ -1,0 +1,36 @@
+{
+  "titulo": "El nacimiento de Dios",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "La historia de Jesucristo es cierta, y Neville cuenta su experiencia personal de la resurrección de Jesucristo en él. Describe cómo se sintió dividido en dos y cómo se fusionó con su Ser Verdadero. También cuenta cómo se levantó por su columna vertebral como una serpiente y cómo se fusionó con su Ser Verdadero.",
+  "etiquetas": [
+    "resurrección",
+    "Jesucristo",
+    "Dios"
+  ],
+  "frases_destacadas": [
+    "La historia de Jesucristo es cierta",
+    "Jesucristo está en el hombre"
+  ],
+  "explicaciones_metafisicas": [
+    "Jesucristo es el Hijo de Dios",
+    "Jesucristo es el Señor"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Neville cuenta su experiencia personal de la resurrección de Jesucristo en él, que comenzó con una vibración intensa en su cráneo y terminó con su fusión con su Ser Verdadero."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿Qué es Jesucristo?",
+      "opciones": [
+        "El Hijo de Dios",
+        "El Señor",
+        "Otro"
+      ],
+      "respuesta_correcta": "El Hijo de Dios"
+    }
+  ]
+}

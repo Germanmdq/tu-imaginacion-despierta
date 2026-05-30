@@ -1,0 +1,33 @@
+{
+  "titulo": "El Cristo resucitado",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "La enseñanza es esencialmente una revelación del Cristo resucitado. No me interesan los acontecimientos de la vida de ningún hombre entre su nacimiento físico y su muerte… se trata sólo de Cristo resucitado. Y cuando hablo de Cristo, no hablo de otro. No tengo ninguna imagen mental de un ser fuera de ti, de tu vida, fuera de mí, de mi vida.",
+  "etiquetas": [
+    "cristo",
+    "resucitado",
+    "revelación"
+  ],
+  "frases_destacadas": [
+    "La enseñanza es esencialmente una revelación del Cristo resucitado"
+  ],
+  "explicaciones_metafisicas": [
+    "La enseñanza es esencialmente una revelación del Cristo resucitado"
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "Un hombre que había sido despedido de su trabajo y estaba pasando por una difícil situación económica, comenzó a imaginar y a creer en su capacidad para encontrar un nuevo empleo. A medida que se enfocaba en su imaginación y en su fe, comenzó a sentir una sensación de confianza y seguridad. Finalmente, encontró un nuevo trabajo y pudo mejorar su situación económica."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿La enseñanza es esencialmente una revelación del Cristo resucitado?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}

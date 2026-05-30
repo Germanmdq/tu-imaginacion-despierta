@@ -1,0 +1,35 @@
+{
+  "titulo": "Soy",
+  "autor": "neville",
+  "año": "sin_ano",
+  "texto_completo": "El texto completo y corregido del capítulo sobre el Yo Soy, donde Neville Goddard explica que el Yo Soy es la consciencia del ser y que es la verdad.",
+  "etiquetas": [
+    "conciencia",
+    "verdad",
+    "Yo Soy"
+  ],
+  "frases_destacadas": [
+    "El Yo Soy es la consciencia del ser y es la verdad.",
+    "El hombre siempre dice Yo Soy."
+  ],
+  "explicaciones_metafisicas": [
+    "La consciencia del ser precede a todas las concepciones de sí misma y permanece sin forma cuando todas sus concepciones dejan de existir.",
+    "La creación comienza y termina en el Creador."
+  ],
+  "testimonios": [
+    {
+      "categoria": "Salud/Dinero",
+      "historia_completa": "La historia de la maestra que cambió su actitud hacia una estudiante y la transformó, mostrando que el cambio de actitud puede producir un cambio correspondiente en la otra persona."
+    }
+  ],
+  "preguntas_verdadero_falso": [
+    {
+      "pregunta": "¿El Yo Soy es la verdad?",
+      "opciones": [
+        "Verdadero",
+        "Falso"
+      ],
+      "respuesta_correcta": "Verdadero"
+    }
+  ]
+}
