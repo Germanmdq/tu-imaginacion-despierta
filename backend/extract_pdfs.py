@@ -103,8 +103,8 @@ def main():
     
     for pdf_file in pdf_files:
         test_pdf = os.path.join(DOCS_DIR, pdf_file)
-        # Extraer número de tomo para nombrar los archivos
-        tomo_prefix = pdf_file.split('-')[1].lower() if '-' in pdf_file else "tomoX"
+        # Extraer el número del tomo (ej: "01" de "01-Tomo-I...")
+        tomo_prefix = pdf_file.split('-')[0] if '-' in pdf_file else "tomoX"
         
         print(f"\n==============================================")
         print(f"Extrayendo texto de {test_pdf}...")
@@ -118,19 +118,17 @@ def main():
             results = process_chunk_with_gemini(chunk, idx == 0)
             
             if results and isinstance(results, list):
-                all_conferences.extend(results)
-                print(f" -> Se encontraron {len(results)} conferencias en este bloque.")
+                # Guardar CADA conferencia al instante para no perder datos si crashea
+                for i, conf in enumerate(results):
+                    # Usar un ID único basado en el bloque y el índice de conferencia
+                    conf_id = f"{idx}_{i}"
+                    safe_title = conf.get("titulo", f"conferencia_{conf_id}").replace(" ", "_").replace("/", "").lower()
+                    output_file = os.path.join(OUT_DIR, f"{tomo_prefix}_{conf_id}_{safe_title}.json")
+                    with open(output_file, 'w', encoding='utf-8') as f:
+                        json.dump(conf, f, ensure_ascii=False, indent=2)
+                    print(f" -> Guardado: {output_file}")
             
             time.sleep(2) # Respetar límites de API
-            
-        # Guardar cada conferencia en un JSON separado
-        for i, conf in enumerate(all_conferences):
-            safe_title = conf.get("titulo", f"conferencia_{i}").replace(" ", "_").replace("/", "").lower()
-            output_file = os.path.join(OUT_DIR, f"{tomo_prefix}_{i}_{safe_title}.json")
-            with open(output_file, 'w', encoding='utf-8') as f:
-                json.dump(conf, f, ensure_ascii=False, indent=2)
-                
-            print(f"Guardado: {output_file}")
 
 if __name__ == "__main__":
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
